@@ -4,6 +4,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    text-align: justify;
 }
 
 header {
@@ -60,6 +61,16 @@ header ul a {
 
 footer.page__footer {
     height: 80px;
-    background: gray;
+    background: grey;
     bottom: 0;
+}
+
+/* Post */
+.post__pic {
+    width: 100%;
+    height: 400px;
+    background-image: url('https://picsum.photos/id/1/1000/400');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }

@@ -41,3 +41,25 @@ header ul a {
     background-position: center;
     background-size: cover;
 }
+
+.input-field.input-container {
+    height: 100px;
+    float: none;
+    display: flex;
+    margin: 0 auto;
+}
+
+.input-field > #search {
+    margin-top: 25px;
+}
+
+.input-container i {
+    margin-top: 40px;
+    margin-right: 10px;
+}
+
+footer.page__footer {
+    height: 80px;
+    background: gray;
+    bottom: 0;
+}
